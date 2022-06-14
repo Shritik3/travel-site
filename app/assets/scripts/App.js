@@ -1,4 +1,41 @@
 import '../styles/styles.css'
+// import Person from './modules/Person'
+import MobileMenu from './modules/MobileMenu'
+let mobileMenu=new MobileMenu();
 if(module.hot){
     module.hot.accept()
 }
+
+
+// Lesson example code below this line
+// function person(name,favColor){
+//     console.log("Hello my name is"+name+"and my favourite colour is"+favColor);
+// }
+// let johnName="John Doe";
+// let johnFavColor="blue";
+// person("Shritik","blue");
+// person("Raj","green");
+// person(johnName,johnFavColor);
+// // object
+// var john={
+//     name:"John Doe",
+//     favouriteColor:"blue",
+//     greet:function(){
+//         console.log("OH!Hello..."+john.name)
+//     }
+// }
+// john.greet();
+// person(john.name,john.favouriteColor);
+// Constructor function object oriented
+// class Adult extends Person{
+//     payTaxes(){
+//         console.log(this.name+"now owes zero taxes");
+//     }
+// }
+// let john=new Person("John Doe","red");
+// john.greet();
+// john.name();
+
+// var jane=new Adult("Jane Smith","green");
+// jane.greet();
+// jane.payTaxes();
