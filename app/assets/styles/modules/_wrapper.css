@@ -14,6 +14,9 @@
         max-width: 976px;
         margin-left: 100px;}
     }
+    &--narrow{
+        max-width: 470px;
+    }
     &--no-padding-until-medium{
         padding-left: 0;
         padding-right: 0;
