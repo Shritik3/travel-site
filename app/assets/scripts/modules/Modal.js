@@ -3,12 +3,11 @@ class Modal{
         this.injectHTML()
         this.modal=document.querySelector(".modal")
         this.closeIcon=document.querySelector(".modal__close")
-        this.openModalButtons=document.querySelectorAll(".open-modal")
         this.events()
     }
     events(){
-        // Open Modal button click
-        this.openModalButtons.forEach(el=>el.addEventListener("click",e=>this.openTheModal(e)))
+        // // Open Modal button click
+        // this.openModalButtons.forEach(el=>el.addEventListener("click",e=>this.openTheModal(e)))
         // Close Modal button click
         this.closeIcon.addEventListener("click",()=>this.closeTheModal())
         // Esc pushes any key
@@ -19,8 +18,8 @@ class Modal{
             this.closeTheModal()
         }
     }
-    openTheModal(e){
-        e.preventDefault()
+    openTheModal(){
+        // e.preventDefault()
         this.modal.classList.add("modal--is-visible")
 
     }
